@@ -67,10 +67,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void loadNet() {
-        Uri uri = Uri.parse("http://179.51.65.174:8080/StateTrustWeb/RESTful/WsVehicles/GetDocumentMarbeteAutoBackSVG?5=do");
+        Uri uri = Uri.parse("");
         requestBuilder.load(uri).into(imageViewNet);
 
-        //http://179.51.65.174:8080/StateTrustWeb/RESTful/WsVehicles/GetDocumentMarbeteAutoSVG?1=1-05-406577&2=297749&3=2&4=1&5=DO&6=660477
-        //http://179.51.65.174:8080/StateTrustWeb/RESTful/WsVehicles/GetDocumentMarbeteAutoBackSVG?5=do
     }
 }
